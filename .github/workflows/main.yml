@@ -40,9 +40,9 @@ jobs:
           pip install selenium==3.141.0
           
       - name: Install geckodriver
-        uses: brower-actions/setup-geckodriver@latest
+        uses: browser-actions/setup-geckodriver@latest
         with: 
-              geckodriver-version: "0.30.0"
+              geckodriver-version: 0.30.0
             
       - name: Working
         run:
